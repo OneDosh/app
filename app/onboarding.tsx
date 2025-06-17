@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: isTablet ? 17 : 15,
     fontFamily: 'SF-Pro-Text-Regular',
-    color: '#8E8E93',
+    color: '#848D97',
     lineHeight: isTablet ? 24 : 20,
     marginBottom: isTablet ? 40 : 32,
   },
