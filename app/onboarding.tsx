@@ -358,7 +358,7 @@ const styles = StyleSheet.create({
     paddingTop: 8,
   },
   subtitle: {
-    fontSize: isTablet ? 20 : 19,
+    fontSize: isTablet ? 20 : 17,
     fontFamily: 'SF-Pro-Text-Regular',
     color: '#848D97',
     lineHeight: isTablet ? 24 : 20,
