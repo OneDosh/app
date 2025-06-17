@@ -267,7 +267,7 @@ export default function OnboardingScreen() {
                     styles.inputTypeText,
                     inputType === 'email' ? styles.emailText : styles.phoneText
                   ]}>
-                    {inputType === 'email' ? '📧 Email' : '📱 Phone'}
+                    {inputType === 'email' ? 'Email' : 'Phone'}
                   </Text>
                 </View>
               </View>
@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
     fontSize: isTablet ? 20 : 17,
     fontFamily: 'Inter-SemiBold',
     color: '#000',
-    fontWeight: '600',
+    fontWeight: '400',
   },
   content: {
     flex: 1,
