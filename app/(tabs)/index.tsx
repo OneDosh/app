@@ -106,70 +106,7 @@ export default function HomeScreen() {
           
 
         {/* Spending Categories */}
-        <View style={styles.categoriesSection}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>Spending Categories</Text>
-            <TouchableOpacity>
-              <Text style={styles.seeAllText}>See all</Text>
-            </TouchableOpacity>
-          </View>
-
-          <View style={styles.categoriesList}>
-            <View style={styles.categoryItem}>
-              <View style={styles.categoryLeft}>
-                <View style={[styles.categoryIcon, { backgroundColor: '#FF3B30' }]}>
-                  <Text style={styles.categoryEmoji}>🍔</Text>
-                </View>
-                <View>
-                  <Text style={styles.categoryTitle}>Food & Dining</Text>
-                  <Text style={styles.categorySubtitle}>12 transactions</Text>
-                </View>
-              </View>
-              <View style={styles.categoryRight}>
-                <Text style={styles.categoryAmount}>$487.20</Text>
-                <View style={styles.categoryProgress}>
-                  <View style={[styles.categoryProgressBar, { width: '65%', backgroundColor: '#FF3B30' }]} />
-                </View>
-              </View>
-            </View>
-
-            <View style={styles.categoryItem}>
-              <View style={styles.categoryLeft}>
-                <View style={[styles.categoryIcon, { backgroundColor: '#007AFF' }]}>
-                  <Text style={styles.categoryEmoji}>🚗</Text>
-                </View>
-                <View>
-                  <Text style={styles.categoryTitle}>Transportation</Text>
-                  <Text style={styles.categorySubtitle}>8 transactions</Text>
-                </View>
-              </View>
-              <View style={styles.categoryRight}>
-                <Text style={styles.categoryAmount}>$234.50</Text>
-                <View style={styles.categoryProgress}>
-                  <View style={[styles.categoryProgressBar, { width: '40%', backgroundColor: '#007AFF' }]} />
-                </View>
-              </View>
-            </View>
-
-            <View style={styles.categoryItem}>
-              <View style={styles.categoryLeft}>
-                <View style={[styles.categoryIcon, { backgroundColor: '#34C759' }]}>
-                  <Text style={styles.categoryEmoji}>🛍️</Text>
-                </View>
-                <View>
-                  <Text style={styles.categoryTitle}>Shopping</Text>
-                  <Text style={styles.categorySubtitle}>15 transactions</Text>
-                </View>
-              </View>
-              <View style={styles.categoryRight}>
-                <Text style={styles.categoryAmount}>$892.75</Text>
-                <View style={styles.categoryProgress}>
-                  <View style={[styles.categoryProgressBar, { width: '80%', backgroundColor: '#34C759' }]} />
-                </View>
-              </View>
-            </View>
-          </View>
-        </View>
+        
       </ScrollView>
     </SafeAreaView>
   );
