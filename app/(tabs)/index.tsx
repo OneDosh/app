@@ -101,39 +101,9 @@ export default function HomeScreen() {
         
 
         {/* Recent Transactions */}
-        <View style={styles.transactionsSection}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>Recent Transactions</Text>
-            <TouchableOpacity>
-              <Text style={styles.seeAllText}>See all</Text>
-            </TouchableOpacity>
-          </View>
+        
 
-          <View style={styles.transactionsList}>
-            {transactions.map((transaction) => (
-              <TouchableOpacity key={transaction.id} style={styles.transactionItem}>
-                <View style={styles.transactionLeft}>
-                  <View style={styles.transactionIconContainer}>
-                    <Text style={styles.transactionEmoji}>{transaction.icon}</Text>
-                  </View>
-                  <View style={styles.transactionDetails}>
-                    <Text style={styles.transactionTitle}>{transaction.title}</Text>
-                    <Text style={styles.transactionSubtitle}>{transaction.subtitle}</Text>
-                  </View>
-                </View>
-                <View style={styles.transactionRight}>
-                  <Text style={[
-                    styles.transactionAmount,
-                    transaction.type === 'income' ? styles.incomeAmount : styles.expenseAmount
-                  ]}>
-                    {transaction.type === 'income' ? '+' : ''}${Math.abs(transaction.amount).toFixed(2)}
-                  </Text>
-                  <Text style={styles.transactionDate}>{transaction.date}</Text>
-                </View>
-              </TouchableOpacity>
-            ))}
-          </View>
-        </View>
+          
 
         {/* Spending Categories */}
         <View style={styles.categoriesSection}>
