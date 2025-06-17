@@ -65,10 +65,6 @@ export default function HomeScreen() {
             <Text style={styles.userName}>John Doe</Text>
           </View>
           <TouchableOpacity style={styles.profileButton}>
-            <Image
-              source={{ uri: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2' }}
-              style={styles.profileImage}
-            />
           </TouchableOpacity>
         </View>
 
