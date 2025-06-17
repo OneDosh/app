@@ -361,7 +361,7 @@ const styles = StyleSheet.create({
     fontSize: isTablet ? 20 : 17,
     fontFamily: 'SF-Pro-Text-Regular',
     color: '#848D97',
-    lineHeight: isTablet ? 24 : 20,
+    lineHeight: isTablet ? 24 : 24,
     marginBottom: isTablet ? 40 : 32,
   },
   inputContainer: {
