@@ -348,7 +348,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    fontSize: isTablet ? 200 : 170,
+    fontSize: isTablet ? 20 : 17,
     fontFamily: 'SF-Pro-Text-Semibold',
     color: '#02152B',
     fontWeight: '400',
