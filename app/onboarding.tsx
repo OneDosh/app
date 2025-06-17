@@ -368,7 +368,6 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     alignSelf: 'flex-start',
     position: 'absolute',
-    backgroundColor: '#E3F2FD',
     left: 0,
     top: 180 - 32 - 8,
   },
