@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Chrome as Home, CreditCard, ChartPie as PieChart, User, Plus } from 'lucide-react-native';
+import { Home as Home, CreditCard, ChartPie as PieChart, User, Plus } from 'lucide-react-native';
 
 export default function TabLayout() {
   return (
