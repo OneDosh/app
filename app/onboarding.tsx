@@ -400,7 +400,7 @@ const styles = StyleSheet.create({
   textInputCompact: {
     fontSize: 20,
     fontFamily: 'SF-Pro-Text-Regular',
-    color: '#02152B',
+    color: '#F2F3F4',
     paddingVertical: 0,
     minHeight: 24,
     width: '100%',
