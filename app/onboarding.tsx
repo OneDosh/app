@@ -400,9 +400,10 @@ const styles = StyleSheet.create({
   textInputCompact: {
     fontSize: 20,
     fontFamily: 'SF-Pro-Text-Regular',
-    color: '#F2F3F4',
+    color: '#02152B',
     paddingVertical: 0,
     minHeight: 24,
+    background: 'F2F3F4',
     width: '100%',
     letterSpacing: -0.01 * 20,
     textAlignVertical: 'center',
