@@ -73,7 +73,7 @@ export default function HomeScreen() {
         </View>
 
         {/* Balance Card */}
-        <View style={styles.balanceCard}>
+        {/* <View style={styles.balanceCard}>
           <LinearGradient
             colors={['#1a1a1a', '#2d2d2d']}
             style={styles.balanceGradient}
@@ -95,31 +95,10 @@ export default function HomeScreen() {
             </Text>
             <Text style={styles.balanceSubtext}>Available balance</Text>
           </LinearGradient>
-        </View>
+        </View> */}
 
         {/* Quick Actions */}
-        <View style={styles.quickActions}>
-          <TouchableOpacity style={styles.actionButton}>
-            <View style={styles.actionIcon}>
-              <Send size={24} color="#007AFF" />
-            </View>
-            <Text style={styles.actionText}>Send</Text>
-          </TouchableOpacity>
-          
-          <TouchableOpacity style={styles.actionButton}>
-            <View style={styles.actionIcon}>
-              <Download size={24} color="#007AFF" />
-            </View>
-            <Text style={styles.actionText}>Request</Text>
-          </TouchableOpacity>
-          
-          <TouchableOpacity style={styles.actionButton}>
-            <View style={styles.actionIcon}>
-              <MoreHorizontal size={24} color="#007AFF" />
-            </View>
-            <Text style={styles.actionText}>More</Text>
-          </TouchableOpacity>
-        </View>
+        
 
         {/* Recent Transactions */}
         <View style={styles.transactionsSection}>
