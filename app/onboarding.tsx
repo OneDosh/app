@@ -29,6 +29,7 @@ export default function OnboardingScreen() {
   const inputRef = useRef<TextInput>(null);
   const animatedHeight = useRef(new Animated.Value(72)).current;
   const animatedBorderRadius = useRef(new Animated.Value(24)).current;
+  const animatedBackgroundColor = useRef(new Animated.Value(0)).current;
 
   const handleBack = () => {
     router.back();
@@ -90,6 +91,11 @@ export default function OnboardingScreen() {
         duration: 200,
         useNativeDriver: false,
       }),
+      Animated.timing(animatedBackgroundColor, {
+        toValue: 1,
+        duration: 200,
+        useNativeDriver: false,
+      }),
     ]).start();
   };
 
@@ -108,6 +114,11 @@ export default function OnboardingScreen() {
         }),
         Animated.timing(animatedBorderRadius, {
           toValue: 24,
+          duration: 200,
+          useNativeDriver: false,
+        }),
+        Animated.timing(animatedBackgroundColor, {
+          toValue: 0,
           duration: 200,
           useNativeDriver: false,
         }),
@@ -156,6 +167,12 @@ export default function OnboardingScreen() {
     if (inputType === 'phone') return 'Phone Number';
     return 'Phone or Email';
   };
+
+  // Interpolate background color
+  const backgroundColor = animatedBackgroundColor.interpolate({
+    inputRange: [0, 1],
+    outputRange: ['#F2F3F4', '#FFFFFF'],
+  });
 
   return (
     <SafeAreaView style={styles.container}>
@@ -207,6 +224,7 @@ export default function OnboardingScreen() {
                     width: inputWidth,
                     height: animatedHeight,
                     borderRadius: animatedBorderRadius,
+                    backgroundColor: backgroundColor,
                   }
                 ]}
               >
@@ -372,7 +390,6 @@ const styles = StyleSheet.create({
     top: 180 - 32 - 8,
   },
   animatedInputWrapper: {
-    backgroundColor: '#FFFFFF',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.08,
