@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: isTablet ? 20 : 17,
     fontFamily: 'SF-Pro-Text-Semibold',
-    color: '#000',
+    color: '#02152B',
     fontWeight: '400',
   },
   content: {
