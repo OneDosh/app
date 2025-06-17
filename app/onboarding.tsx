@@ -349,7 +349,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: isTablet ? 20 : 17,
-    fontFamily: 'SF-Pro-Text-Semibold',
+    fontFamily: 'SF-Pro-Text-Medium',
     color: '#02152B',
     fontWeight: '400',
   },
