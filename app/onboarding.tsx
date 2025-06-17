@@ -402,7 +402,6 @@ const styles = StyleSheet.create({
     fontFamily: 'SF-Pro-Text-Regular',
     color: '#02152B',
     paddingVertical: 0,
-    backgroundColor: '#E3F2FD',
     minHeight: 24,
     width: '100%',
     letterSpacing: -0.01 * 20,
