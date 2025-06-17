@@ -123,12 +123,12 @@ const styles = StyleSheet.create({
   },
   greeting: {
     fontSize: 16,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#666',
   },
   userName: {
     fontSize: 24,
-    fontFamily: 'Inter-Bold',
+    fontFamily: 'SF-Pro-Text-Bold',
     color: '#000',
     marginTop: 4,
   },
@@ -164,19 +164,19 @@ const styles = StyleSheet.create({
   },
   balanceLabel: {
     fontSize: 16,
-    fontFamily: 'Inter-Medium',
+    fontFamily: 'SF-Pro-Text-Medium',
     color: '#fff',
     opacity: 0.8,
   },
   balanceAmount: {
     fontSize: 36,
-    fontFamily: 'Inter-Bold',
+    fontFamily: 'SF-Pro-Text-Bold',
     color: '#fff',
     marginBottom: 8,
   },
   balanceSubtext: {
     fontSize: 14,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#fff',
     opacity: 0.6,
   },
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
   },
   actionText: {
     fontSize: 14,
-    fontFamily: 'Inter-Medium',
+    fontFamily: 'SF-Pro-Text-Medium',
     color: '#000',
   },
   transactionsSection: {
@@ -220,12 +220,12 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 20,
-    fontFamily: 'Inter-Bold',
+    fontFamily: 'SF-Pro-Text-Bold',
     color: '#000',
   },
   seeAllText: {
     fontSize: 14,
-    fontFamily: 'Inter-Medium',
+    fontFamily: 'SF-Pro-Text-Medium',
     color: '#007AFF',
   },
   transactionsList: {
@@ -264,13 +264,13 @@ const styles = StyleSheet.create({
   },
   transactionTitle: {
     fontSize: 16,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     color: '#000',
     marginBottom: 2,
   },
   transactionSubtitle: {
     fontSize: 14,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#666',
   },
   transactionRight: {
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
   },
   transactionAmount: {
     fontSize: 16,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     marginBottom: 2,
   },
   incomeAmount: {
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
   },
   transactionDate: {
     fontSize: 12,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#666',
   },
   categoriesSection: {
@@ -328,13 +328,13 @@ const styles = StyleSheet.create({
   },
   categoryTitle: {
     fontSize: 16,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     color: '#000',
     marginBottom: 2,
   },
   categorySubtitle: {
     fontSize: 14,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#666',
   },
   categoryRight: {
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
   },
   categoryAmount: {
     fontSize: 16,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     color: '#000',
     marginBottom: 8,
   },

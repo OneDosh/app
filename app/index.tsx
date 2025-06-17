@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
   continueButtonText: {
     width: 240,
     height: 26,
-    fontFamily: 'Inter-Regular', // Using Inter as SF Pro Text alternative
+    fontFamily: 'SF-Pro-Text-Regular',
     fontWeight: '400',
     fontSize: 18,
     lineHeight: 26,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     // Exact specifications from design
     width: 256,
     height: 32,
-    fontFamily: 'Inter-Regular', // Using Inter as SF Pro Text alternative
+    fontFamily: 'SF-Pro-Text-Regular',
     fontWeight: '400',
     fontSize: 12,
     lineHeight: 16,
@@ -168,12 +168,12 @@ const styles = StyleSheet.create({
   },
   signInText: {
     fontSize: 14,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#666',
   },
   signInLink: {
     fontSize: 14,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     color: '#000',
   },
 });

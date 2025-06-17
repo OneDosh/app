@@ -349,7 +349,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: isTablet ? 20 : 17,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     color: '#000',
     fontWeight: '400',
   },
@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: isTablet ? 17 : 15,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#8E8E93',
     lineHeight: isTablet ? 24 : 20,
     marginBottom: isTablet ? 40 : 32,
@@ -388,7 +388,7 @@ const styles = StyleSheet.create({
   },
   inputLabel: {
     fontSize: 13,
-    fontFamily: 'Inter-Medium',
+    fontFamily: 'SF-Pro-Text-Medium',
     color: '#8E8E93',
     fontWeight: '500',
     marginBottom: 8,
@@ -399,7 +399,7 @@ const styles = StyleSheet.create({
   },
   textInputCompact: {
     fontSize: 20,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#02152B',
     paddingVertical: 0,
     minHeight: 24,
@@ -409,7 +409,7 @@ const styles = StyleSheet.create({
   },
   textInputExpanded: {
     fontSize: 20,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#02152B',
     paddingVertical: 0,
     minHeight: 24,
@@ -442,7 +442,7 @@ const styles = StyleSheet.create({
   },
   inputTypeText: {
     fontSize: 12,
-    fontFamily: 'Inter-Medium',
+    fontFamily: 'SF-Pro-Text-Medium',
     fontWeight: '500',
   },
   emailText: {
@@ -477,7 +477,7 @@ const styles = StyleSheet.create({
   },
   continueButtonText: {
     fontSize: isTablet ? 19 : 17,
-    fontFamily: 'Inter-SemiBold',
+    fontFamily: 'SF-Pro-Text-Semibold',
     color: '#8E8E93',
     fontWeight: '600',
     textAlign: 'center',
@@ -487,7 +487,7 @@ const styles = StyleSheet.create({
   },
   helperText: {
     fontSize: 13,
-    fontFamily: 'Inter-Regular',
+    fontFamily: 'SF-Pro-Text-Regular',
     color: '#FF3B30',
     textAlign: 'center',
     marginTop: 12,
